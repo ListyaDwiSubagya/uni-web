@@ -25,3 +25,17 @@
     max-width: 700px;
     line-height: 1.4;
 }
+
+/* media query */
+@media (max-width: 850px) {
+    .hero-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
